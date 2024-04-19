@@ -70,9 +70,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "254728782591,254762016957,254110853827,254728746852" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852";
+global.devs = "254758943247,254770554195" // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254758943247,254770554195";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254758943247,254770554195";
 
 
 
@@ -83,7 +83,7 @@ global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not respo
 global.gdbye = process.env.GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
 
-global.warncount = process.env.WARN_COUNT || 5,
+global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES|| "text",
@@ -93,14 +93,14 @@ global.waPresence= process.env.WAPRESENCE ||  "available" ; // 'unavailable' | '
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254728782591,254762016957,254110853827,254728746852";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254758943247,254770554195";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "254xxxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254728782591,254762016957,254110853827,254728746852";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || 
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254758943247,";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://session.giftedtechnexus.co.ke";
@@ -118,10 +118,10 @@ module.exports = {
   VERSION : process.env.VERSION || "V.2.5.0",
   caption : process.env.CAPTION || "*©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs*" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "GiftedTech",
-  packname: process.env.PACK_NAME || "WhatsappBots♥️",
-  botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Gifted Tech",
+  author : process.env.PACK_AUTHER|| "kante",
+  packname: process.env.PACK_NAME || "kantebot",
+  botname : process.env.BOT_NAME  || "kantebot",
+  ownername:process.env.OWNER_NAME|| "kante",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -136,8 +136,8 @@ module.exports = {
 
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "Gifted",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "kante",
 
 
 
