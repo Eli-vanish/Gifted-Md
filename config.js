@@ -53,7 +53,7 @@ global.video= "https://telegra.ph/file/204481823350f368c1826.mp4" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="wabots@giftedtechnexus.co.ke"
-global.location="Eldoret,Kenya."
+global.location="Nairobi,Kenya."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority"
 
 global.allowJids= process.env.ALLOW_JID || "null" 
